@@ -1,0 +1,1 @@
+Página criada em atividade proposta do curso de HTML5/CSS3 da plataforma B7Web.
