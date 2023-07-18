@@ -1,1 +1,1 @@
-Página criada em atividade proposta do curso de HTML5/CSS3 da plataforma B7Web.
+Página criada em atividade proposta no curso de HTML5/CSS3 da plataforma B7Web.
