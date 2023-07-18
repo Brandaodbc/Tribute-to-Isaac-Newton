@@ -1,0 +1,183 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Fredericka+the+Great&family=Great+Vibes&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Manrope:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ccc;
+}
+
+header h1, header p {
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-family: 'Libre Baskerville';
+}
+
+header p {
+    color: #234;
+    font-size: 20px;
+    font-family: 'Fasthand';
+}
+
+footer {
+    background-color: #236;
+    color: #fff;
+}
+
+.container {
+    width: 730px;
+    margin: auto;
+}
+
+.picture {
+    background-color: #eee;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+figurecaption {
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+}
+
+.intro-about {
+    background-image: url(../img/math_img.avif);
+}
+
+.about {
+    background-color: rgb(238,222,193);
+    font-family: 'Frdericka the Great';
+    font-style: italic;
+    font-size: 30px;
+    padding: 25px 20px;
+}
+
+.about p {
+    line-height: 40px;
+}
+
+.timeLine-content dd {
+    margin-left: 25px;
+    margin-bottom: 15px;
+    font-style: italic;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+.timeline {
+    background-color: #ccc;
+    padding: 15px 0px;
+}
+
+.dl-item-year {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 1px;  
+    font-style: italic;
+    color: #234; 
+}
+
+.timeLine-content h3 {
+    font-family: 'Libre Baskerville';
+}
+
+.timeLine-content dl {
+    padding: 15px 5px;
+}
+
+.timeLine-content{
+    border-left: 5px solid #234;
+}
+
+.timeline_title {
+    text-align: center;
+    background-color: #234;
+    color: #fff;
+    padding: 10px;
+}
+
+.citation {
+    text-align: right;
+    margin-bottom: 15px;
+    padding: 10px 0px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.citation p {
+    text-align: end;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.moreInfo {
+    font-size: smaller;
+    text-align: center;
+}
+
+.footer-title {
+    padding: 20px 0px;
+    color: #fff;
+}
+
+.footer-title h2 {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.footer-title p {
+    padding-bottom: 7px;
+}
+
+.my_name {
+    font-size: 18px;
+}
+
+.footer_box {
+    display: flex;
+    flex-direction: row;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.github a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.github img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.whatsapp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.whatsapp img {
+    width: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
